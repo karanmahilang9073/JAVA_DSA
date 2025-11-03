@@ -1,4 +1,4 @@
-package Array.sorting;
+package sorting;
 import java.util.Arrays;
 
 public class Insertion {

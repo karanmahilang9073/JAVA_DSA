@@ -1,4 +1,4 @@
-package Array.Searching;
+package Searching;
 public class Linearsearch {
     public static void main(String[] args) {
         //find the target element--------------
@@ -13,8 +13,7 @@ public class Linearsearch {
             return -1;
         }
         for (int i = 0; i < arr.length; i++) {
-            int element = arr[i];
-            if(element == target){
+            if(arr[i] == target){
                 return i;   // here we can return index or exact value that is present or not
             }
         }

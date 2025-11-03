@@ -1,4 +1,4 @@
-package Array.Searching;
+package Searching;
 //find the missing no of the given array 
 //amazon leetcode
 public class Missingn {

@@ -1,4 +1,4 @@
-package Array.Searching;
+package Searching;
 public class Binary {
     public static void main(String[] args) {
         int[] arr = {2,3,4,5,15,16,18,22,45};

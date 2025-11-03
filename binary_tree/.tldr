@@ -3,7 +3,7 @@
 	"schema": {
 		"schemaVersion": 2,
 		"sequences": {
-			"com.tldraw.store": 4,
+			"com.tldraw.store": 5,
 			"com.tldraw.asset": 1,
 			"com.tldraw.camera": 1,
 			"com.tldraw.document": 2,
@@ -356,9 +356,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 468.62363885600314,
-			"y": 537.0021323057656,
-			"lastActivityTimestamp": 1757615670393,
+			"x": 823.5896775521913,
+			"y": 1358.9283840289982,
+			"lastActivityTimestamp": 1758614943558,
 			"meta": {}
 		},
 		{
@@ -2020,9 +2020,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -17.560640620393116,
-			"y": -309.03508780098275,
-			"z": 0.8211713116468228,
+			"x": 114.11333249087306,
+			"y": -593.6360478048889,
+			"z": 0.4547281914738674,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -2230,6 +2230,45 @@
 			},
 			"parentId": "page:page",
 			"index": "aX5Ch",
+			"typeName": "shape"
+		},
+		{
+			"x": 345.9986977170673,
+			"y": 1050.1752144774628,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:iiLOMTTxP5yve8mOWUEJh",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 200.21250915527344,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "time complexity--O(n)"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0CXmiggV",
 			"typeName": "shape"
 		},
 		{
@@ -3609,12 +3648,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:pJkyH27PBYc_bQs-4k2so",
+			"editingShapeId": "shape:CRfHn6PpjtAhP9xJaIuAm",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:pJkyH27PBYc_bQs-4k2so"
+				"shape:CRfHn6PpjtAhP9xJaIuAm"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:CRfHn6PpjtAhP9xJaIuAm",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -5434,7 +5473,46 @@
 				"scale": 1
 			},
 			"parentId": "page:page",
-			"index": "aUA70",
+			"index": "aUA7ZCA",
+			"typeName": "shape"
+		},
+		{
+			"x": 277.53736779642435,
+			"y": 1122.4985405726961,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:GG_DZt97ZxHbramHZuxd-",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 184.3874969482422,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "4  - 5 - 2 - 6 - 3 - 1"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0DICbfzG",
 			"typeName": "shape"
 		},
 		{
@@ -6034,6 +6112,45 @@
 			},
 			"parentId": "page:page",
 			"index": "aSCCh",
+			"typeName": "shape"
+		},
+		{
+			"x": 344.5943841727873,
+			"y": 1015.0669205158758,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:NmxZ-rt-4wTN7o4fBqqbs",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 178.21250915527344,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "4 - 2 - 5 - 1 - 6 - 3"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0B7zUwet",
 			"typeName": "shape"
 		},
 		{
@@ -7398,6 +7515,267 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 19.49081655707701,
+			"y": 790.022192921694,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:VR4DJNJ7knS5UJAS-TYYa",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 924.7125244140625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "tree traversal:-"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "a. preorder"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\troot"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\tleft subtree"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\tright subtree"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "in pre-order tree traveral we will first print root--then print left subtree--then print right subtree"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "b. in-order"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\tleft subtree"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\troot"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\tright subtree"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "c. post-order"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\tleft subtree"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\tright subtree"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\troot"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "d. level-order"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "it will be done using iteration methof and queue. "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "at3LXNSV",
+			"typeName": "shape"
+		},
+		{
 			"x": 228.56438028607553,
 			"y": 302.70278500160765,
 			"rotation": 0,
@@ -8054,10 +8432,7 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:size": "s",
-				"tldraw:geo": "ellipse"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -8071,7 +8446,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 763.2000122070312,
+				"w": 720,
 				"h": 702.4000244140625
 			},
 			"insets": [
@@ -8494,6 +8869,45 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 23.111503566965553,
+			"y": 1348.006248024576,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:CRfHn6PpjtAhP9xJaIuAm",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 845.5875244140625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "diameter :- number of nodes in the longest path between 2 leaves "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0Fc9Oi5V",
+			"typeName": "shape"
+		},
+		{
 			"x": 263.5792413828991,
 			"y": 228.66214577592257,
 			"rotation": 0,
@@ -8567,6 +8981,69 @@
 			},
 			"parentId": "page:page",
 			"index": "aKB6M",
+			"typeName": "shape"
+		},
+		{
+			"x": 499.4223095592832,
+			"y": 1232.0366577314999,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:7zBrC1Ep_TtFUg246xY0v",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 74.26250457763672,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "1"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "2 - 3"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "4 - 5- 6"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0E7iPOrV",
 			"typeName": "shape"
 		},
 		{

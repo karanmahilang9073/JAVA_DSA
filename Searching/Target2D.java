@@ -1,4 +1,4 @@
-package Array.Searching;
+package Searching;
 //find the target elementin two dimensional array-----------------
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package Array.Searching;
+package Searching;
 // find duplicate numbers
 
 
