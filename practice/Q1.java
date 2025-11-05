@@ -9,7 +9,6 @@ public class Q1 {
         }
         return result;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); // length of array
@@ -18,11 +17,6 @@ public class Q1 {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
-        // Debug print
-        System.out.print("Array read: ");
-        for (int num : arr) System.out.print(num + " ");
-        System.out.println();
 
         System.out.println("Result = " + singleNumber(arr));
         sc.close();
