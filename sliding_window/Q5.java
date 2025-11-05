@@ -1,4 +1,4 @@
-package two_pointer;
+package sliding_window;
 //Picking Numbers
 // Given an array of integers, find the length of the longest subsequence where the absolute difference between any two elements ≤ 1.
 
