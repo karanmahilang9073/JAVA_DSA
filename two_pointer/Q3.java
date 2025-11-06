@@ -1,7 +1,5 @@
 package two_pointer;
-
 import java.util.Scanner;
-
 // Count All Unique Triplets That Sum to Zero
 // Given a sorted integer array arr[], find the number of distinct triplets (i, j, k) (with i < j < k) such that
 public class Q3 {
@@ -22,7 +20,6 @@ public class Q3 {
                     count++;
                     left++;
                     right--;
-
                     // Skip duplicates for left and right
                     while (left < right && arr[left] == arr[left - 1]) left++;
                     while (left < right && arr[right] == arr[right + 1]) right--;

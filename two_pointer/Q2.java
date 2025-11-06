@@ -1,11 +1,7 @@
 package two_pointer;
-//Count All Pairs That Sum to Target
-
 import java.util.Scanner;
-
-// You’re given a sorted array of integers and a target value.
-// Find how many pairs of numbers add up to the target.
-
+//Count All Pairs That Sum to Target
+// You’re given a sorted array of integers and a target value. Find how many pairs of numbers add up to the target.
 public class Q2 {
     public static int pairsum(int[] arr, int target){
         int left = 0;
