@@ -25,3 +25,5 @@ public class Maxsubarray {
         System.out.println("maximum sub array is " + ans);
     }
 }
+
+//maximum sub array is 6

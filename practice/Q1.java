@@ -1,5 +1,6 @@
 package practice;
 import java.util.Scanner;
+//print the number that appears one time 
 
 public class Q1 {
     public static int singleNumber(int[] arr){
@@ -13,11 +14,9 @@ public class Q1 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); // length of array
         int[] arr = new int[n];
-
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
         System.out.println("Result = " + singleNumber(arr));
         sc.close();
     }

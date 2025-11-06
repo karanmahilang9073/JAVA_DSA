@@ -1,11 +1,7 @@
 package practice;
-
+import java.util.Scanner;
 public class Evendigit {
-     public static void main(String[] args) {
-        int[] arr={12,345,2,6,7896};
-        System.out.println(findNumbers(arr));
-    }
-
+    
     //function to count the digits in a number
     static int digit(int num){
         int count = 0;
@@ -15,7 +11,6 @@ public class Evendigit {
         }
         return count;
     }
-
     //function to check whether a number contains even digits or not
     static boolean even(int num){
         int noofdigit = digit(num);
@@ -24,7 +19,6 @@ public class Evendigit {
         }
         return false;
     }
-
     static int findNumbers(int[] arr){
         int count = 0;
         for(int num : arr){
@@ -33,5 +27,14 @@ public class Evendigit {
             }
         }
         return count;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
+        System.out.println(findNumbers(arr));
     }
 }

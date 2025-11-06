@@ -1,8 +1,6 @@
 package practice;
-
 import java.util.Arrays;
 import java.util.Scanner;
-
 //Check if Two Strings Are Anagrams
 public class Q2 {
     public static boolean checkAnagrams(String s1, String s2){
@@ -15,10 +13,8 @@ public class Q2 {
         char[] arr2 = s2.toCharArray();
         Arrays.sort(arr1);
         Arrays.sort(arr2);
-
         return Arrays.equals(arr1, arr2);
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s1 = sc.next();
