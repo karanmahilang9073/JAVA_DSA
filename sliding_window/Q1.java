@@ -32,6 +32,7 @@ public class Q1 {
             arr[i] = sc.nextInt();
         }
         System.out.println(maxSubArr(arr, k));
+        sc.close();
     }
 }
 

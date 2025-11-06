@@ -40,6 +40,7 @@ public class Q3 {
             arr[i] = sc.nextInt();
         }
         System.out.println(uniqTriplet(arr));
+        sc.close();
     }
 }
 

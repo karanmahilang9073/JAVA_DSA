@@ -1,8 +1,6 @@
 package practice;
 //Mini-Max Sum
-
 import java.util.Scanner;
-
 public class Q7 {
     public static  void minmax(int[] arr){
         long sum = 0;
@@ -17,7 +15,6 @@ public class Q7 {
         long maxsum = sum - min;
         System.out.println(minsum + " " +maxsum );
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -26,9 +23,9 @@ public class Q7 {
             arr[i] = sc.nextInt();
         }
         minmax(arr);
+        sc.close();
     }
 }
-
 // 3
 // 1 2 3
 // 3 5 ----output

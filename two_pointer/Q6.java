@@ -34,5 +34,6 @@ public class Q6 {
          Scanner sc = new Scanner(System.in);
          String S = sc.next();
          System.out.println(isPalindrome(S));
+         sc.close();
     }
 }

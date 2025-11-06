@@ -28,6 +28,7 @@ public class Q5 {
             arr[i] = sc.nextInt();
         }
         System.out.println(pickingnum(arr));
+        sc.close();
     }
 }
 

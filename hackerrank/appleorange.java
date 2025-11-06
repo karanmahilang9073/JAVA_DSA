@@ -47,5 +47,6 @@ public class appleorange {
         }
 
         countappleoranges(s, t, a, b, apples, oranges);
+        sc.close();
     }
 }

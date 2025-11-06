@@ -6,7 +6,6 @@ public class Missingn {
         int[] arr = {4,0,2,1};
         System.out.println(missing(arr));
     }
-
     public static int missing(int [] arr){
         int i = 0;
         while( i < arr.length){
@@ -25,7 +24,6 @@ public class Missingn {
         }
         return arr.length;
     }
-
     static void swap(int[] arr, int first, int second){
         int temp = arr[first];
         arr[first] = arr[second];

@@ -23,6 +23,6 @@ class Solution {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
         System.out.println(longestsubstring(s));
-
+        sc.close();
     }
 }

@@ -9,15 +9,12 @@ public class Sumofdigits {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
         sc.close();
-
         int sum = 0;
-
         while (n > 0) {
             int digit = n % 10;   // get last digit
             sum += digit;        // add to sum
             n /= 10;             // remove last digit
         }
-
         System.out.println("Sum of digits = " + sum);
     }
 }

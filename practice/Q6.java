@@ -1,7 +1,5 @@
 package practice;
-
 import java.util.Scanner;
-
 //factorial
 public class Q6 {
     public static int fact(int n){
@@ -14,5 +12,6 @@ public class Q6 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println(fact(n));
+        sc.close();
     }
 }

@@ -6,25 +6,22 @@ public class Binary {
         int ans = binarySearch(arr, target);
         System.out.println(ans);
     }
-
     //return the index
     //return -1 if doesnt contain that element
     static int binarySearch(int[] arr, int target){
-        int start = 0; //starts from 0
-        int end = arr.length - 1; //end is length of an array - 1
+        int start = 0; 
+        int end = arr.length - 1; 
 
         while (start <= end) {
-            //find the mid element
-            int mid = start + (end - start) / 2; //mid element
-            if (target < arr[mid]) { //if target element is less than middle element
-                end = mid-1; // mid - 1 becomes end
-            }else if (target > arr[mid ]) { //if target element is greater than middle element 
-                start = mid +1; // mid + 1 starts point
+            int mid = start + (end - start) / 2;
+            if (target < arr[mid]) { 
+                end = mid-1; 
+            }else if (target > arr[mid ]) { 
+                start = mid +1; 
             }else{
-                return mid;  //if middle element is target element then it returns middle element
+                return mid;  
             }
         }
-        //if target value never found
         return -1;
     }
 }

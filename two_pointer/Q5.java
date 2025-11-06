@@ -31,5 +31,6 @@ public class Q5 {
             height[i] = sc.nextInt();
         }
         System.out.println(mostwater(height));
+        sc.close();
     }
 }

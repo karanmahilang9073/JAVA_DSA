@@ -31,6 +31,7 @@ public class Q2 {
             arr[i] = sc.nextInt();
         }
         System.out.println(maxAvg(arr, k));
+        sc.close();
     }
 }
 

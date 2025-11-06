@@ -1,7 +1,5 @@
 package practice;
-
 import java.util.Scanner;
-
 //Find the first non-repeating character in a string
 public class Q3 {
     public static void main(String[] args) {
@@ -28,5 +26,6 @@ public class Q3 {
         }else{
             System.out.println("no unique character found");
         }
+        sc.close();
     }
 }

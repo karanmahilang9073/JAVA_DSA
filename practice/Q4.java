@@ -1,7 +1,5 @@
 package practice;
-
 import java.util.Scanner;
-
 //Find Missing Number in an Array
 public class Q4 {
     public static int missingNum(int[] arr){
@@ -22,6 +20,7 @@ public class Q4 {
             arr[i] = sc.nextInt();
         }
         System.out.println(missingNum(arr));
+        sc.close();
     }
 }
 //5

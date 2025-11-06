@@ -24,5 +24,6 @@ public class Q2 {
         }else{
             System.out.println("not it is not anagram");
         }
+        sc.close();
     }
 }

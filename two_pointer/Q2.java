@@ -30,6 +30,7 @@ public class Q2 {
             arr[i] = sc.nextInt();
         }
         System.out.println(pairsum(arr, target));
+        sc.close();
     }
 }
 

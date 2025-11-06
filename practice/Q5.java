@@ -13,11 +13,9 @@ public class Q5 {
             }
             if (count > arr.length /2) {
                 return arr[i];
-                
             }
         }
         return -1;
-        
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -26,10 +24,11 @@ public class Q5 {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-        int result = majorElement(arr); // ✅ store returned value
+        int result = majorElement(arr); 
         if (result != -1)
             System.out.println(result);
         else
             System.out.println("No Majority Element");
+        sc.close();
     }
 }

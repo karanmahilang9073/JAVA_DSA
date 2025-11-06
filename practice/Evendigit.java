@@ -36,5 +36,6 @@ public class Evendigit {
             arr[i] = sc.nextInt();
         }
         System.out.println(findNumbers(arr));
+        sc.close();
     }
 }

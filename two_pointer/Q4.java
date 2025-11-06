@@ -40,5 +40,6 @@ public class Q4 {
             arr[i] = sc.nextInt();
         }
         System.out.println(pairs(arr, k));
+        sc.close();
     }
 }
