@@ -1,7 +1,5 @@
 package two_pointer;
-
 import java.util.Scanner;
-
 //valid palindrome
 //given a string determine its palindro or not 
 public class Q6 {
