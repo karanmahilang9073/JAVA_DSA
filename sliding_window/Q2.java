@@ -11,7 +11,6 @@ public class Q2 {
             windwsum += arr[i];
         }
         maxsum = windwsum;
-
         for (int j = k; j < arr.length; j++) {
             windwsum += arr[j] - arr[j - k];
             if (windwsum > maxsum) {
