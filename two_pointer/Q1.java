@@ -1,7 +1,5 @@
 package two_pointer;
-
 import java.util.Scanner;
-
 //pair sum
 // Given a sorted array of integers and a target number,
 // find if there exists a pair of elements that sum to the target.
@@ -20,7 +18,6 @@ public class Q1 {
             }
         }
         return false;
-        
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -34,7 +31,6 @@ public class Q1 {
         sc.close();
     }
 }
-
 // 4 
 // 5
 // 1 2 3 4
