@@ -1,7 +1,6 @@
 package practice;
 import java.util.Scanner;
 public class Evendigit {
-    
     //function to count the digits in a number
     static int digit(int num){
         int count = 0;
@@ -39,3 +38,6 @@ public class Evendigit {
         sc.close();
     }
 }
+// 4
+// 1 2 33 4
+// 1

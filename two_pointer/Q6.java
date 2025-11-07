@@ -37,3 +37,7 @@ public class Q6 {
          sc.close();
     }
 }
+
+
+// mam
+// true

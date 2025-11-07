@@ -21,3 +21,7 @@ public class Q1 {
         sc.close();
     }
 }
+
+// 4
+// 1 2 2 3
+// Result = 2

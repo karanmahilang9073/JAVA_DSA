@@ -2,10 +2,8 @@ package two_pointer;
 // Pairs
 // You’re given an array of n unique integers and a target value k.
 // Find how many pairs of array elements have a difference equal to k
-
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class Q4 {
     public static int pairs(int[] arr, int k){
         Arrays.sort(arr);
@@ -30,7 +28,6 @@ public class Q4 {
         }
         return count;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

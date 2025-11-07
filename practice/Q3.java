@@ -29,3 +29,8 @@ public class Q3 {
         sc.close();
     }
 }
+
+
+// enter a string
+// karan
+// the first non repeating chacacter is : k
