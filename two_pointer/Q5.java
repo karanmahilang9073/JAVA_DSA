@@ -1,8 +1,6 @@
 package two_pointer;
 //container with most water 
-
 import java.util.Scanner;
-
 public class Q5 {
     public static int mostwater(int[] height){
         int left = 0;
@@ -13,7 +11,6 @@ public class Q5 {
             int h = Math.min(height[left], height[right]);
             int area = width * h;
             maxArea = Math.max(maxArea, area);
-
             // move the pointer pointing to the shorter line 
             if (height[left] < height[right]) {
                 left++;
