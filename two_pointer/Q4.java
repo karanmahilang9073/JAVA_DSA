@@ -40,3 +40,7 @@ public class Q4 {
         sc.close();
     }
 }
+
+// 5 2
+// 1 2 3 4 5
+// 3
