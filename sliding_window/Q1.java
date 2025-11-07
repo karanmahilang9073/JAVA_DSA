@@ -1,7 +1,5 @@
 package sliding_window;
-
 import java.util.Scanner;
-
 //maximum of subarray of size k
 // Given an array of integers and a number k,
 // find the maximum sum of any contiguous subarray of size k.
