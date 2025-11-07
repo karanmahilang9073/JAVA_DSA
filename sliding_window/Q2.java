@@ -2,9 +2,7 @@ package sliding_window;
 //Maximum Average Subarray of Size K
 // You are given an integer array arr[] and an integer k.
 // Find the maximum average of any contiguous subarray of size k.
-
 import java.util.Scanner;
-
 public class Q2 {
     public static double maxAvg(int[] arr, int k){
         int maxsum = 0;
