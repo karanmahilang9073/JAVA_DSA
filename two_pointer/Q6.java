@@ -38,6 +38,5 @@ public class Q6 {
     }
 }
 
-
 // mam
 // true
