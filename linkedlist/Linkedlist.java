@@ -13,10 +13,7 @@ public class Linkedlist {
     public static Node tail;
     //size of linkedlist method
     public static int size;
-
-
     //medthods to be perform operation in linkedlist
-
     //add first
     public void addFirst(int data){
         Node newnode = new Node(data);//1. create new node
@@ -27,7 +24,6 @@ public class Linkedlist {
         }
         newnode.next= head;//2. newnode next = head
         head = newnode;//3. head will become new node
-        
     }
 
     //add last
